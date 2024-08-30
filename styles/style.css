@@ -1,0 +1,93 @@
+/* Здесь вы напишете основную часть стилей страницы.
+
+Будьте внимательны! Для корректной работы скриптов на этом сайте нужно, чтобы в HTML некоторые классы были названы особым образом:
+✦ theme-dark — класс тёмной темы
+✦ theme-light — класс светлой темы
+✦ like-icon — для svg-иконки анимированного сердца
+✦ card__like-button — для кнопки Like рядом с иконкой
+✦ card__icon-button — для кнопки, оборачивающей иконку
+✦ card__icon-button — для кнопки, оборачивающей иконку
+✦ is-liked — для обозначения состояния лайкнутой иконки в виде сердца
+✦ button__text — для обозначения текстового элемента внутри кнопки
+
+Кроме этого, не меняйте HTML переключателя тем. Его разметка также гарантирует работу своего скрипта.
+
+*/
+
+.page {
+  padding-block-start: 100px;
+  min-inline-size: 320px;
+  min-block-size: 100dvb;
+}
+
+.header {
+  display: grid;
+  justify-self: center;
+  justify-content: center;
+}
+
+.card {
+  max-inline-size: 696px;
+  border: 2px solid black;
+  margin-inline: auto;
+  color: rgba(255, 255, 255, 1);
+}
+
+.page-title {
+  color: black;
+}
+
+.subtitle {
+  color:black;
+}
+
+.title-card {
+  color: black;
+  font-size: 18px;
+}
+
+.img__card {
+  display: block;
+  object-fit: cover;
+  object-position: right;
+  inline-size: 100%;
+  aspect-ratio: 1 / 1;
+}
+
+.card__text {
+  font-size: 18px;
+  color:black;
+}
+
+.button {
+  position: relative;
+  z-index: 1;
+  border: 2px solid black;
+  color: black;
+  background: white;
+  padding: 10px 36px;
+}
+
+.card__like-button {
+  display: grid;
+  border: 2px solid transparent;
+  padding: 0;
+  background: transparent;
+  transition: border-color 0.3s ease;
+  cursor: pointer;
+  appearance: none;
+  width: 40px;
+  height: 40px;
+}
+
+.button__text {
+  font-size: 14px;
+}
+
+.card__footer {
+  display: flex;
+  justify-content: end;
+  align-items: stretch;
+  gap: 5px;
+  padding: 25px 25px 23px 25px;
+}
