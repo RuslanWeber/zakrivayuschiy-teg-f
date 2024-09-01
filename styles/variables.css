@@ -1,1 +1,43 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+    --main-font: 'Inter-Variable';
+    --accent-font: 'PressStart2P';
+    --font-weight: 400;
+    --font-bold-weight: 700;
+    --background-color: #fff;
+    --accent-color: #000;
+    --contur-color-like-icon: #000;
+    --main-body-color-like-icon: #FF0000;
+    --sparks-color-like-icon: #fff;
+    --button-text-color: var(--background-color);
+    --diskette-color: var(--background-color);
+    --color-black: #000;
+    --color-white: #ffffff;
+    --color-green: #00cc14;
+    --gradient-color-line-1: #d3d3d3;
+    --gradient-color-line-2: rgb(211 211 211 / 0%);
+    --gradient-background-color-1: #e7e7e7;
+    --gradient-background-color-2: #1a1a1a;
+    --gradient-left-to-right: repeating-linear-gradient(
+        to right,
+        var(--gradient-color-line-2) 0,
+        var(--gradient-color-line-1) 1px,
+        var(--gradient-color-line-1) 2px,
+        var(--gradient-color-line-2) 3px,
+        var(--gradient-color-line-2) 4px
+      );
+      --gradient-top-to-bottom: repeating-linear-gradient(
+        to bottom,
+        var(--gradient-color-line-2) 0,
+        var(--gradient-color-line-1) 1px,
+        var(--gradient-color-line-1) 2px,
+        var(--gradient-color-line-2) 3px,
+        var(--gradient-color-line-2) 4px
+      );
+      --gradient-background: linear-gradient(
+        to bottom,
+        var(--gradient-background-color-1) 0.01%,
+        var(--gradient-background-color-2)
+      );
+    
+}
