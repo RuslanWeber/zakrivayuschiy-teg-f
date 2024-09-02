@@ -21,8 +21,6 @@
 :root.theme-dark {
     --main-font: 'Inter-Variable';
     --accent-font: 'PressStart2P';
-    --font-weight: 400;
-    --font-bold-weight: 700;
     --background-color: #000;
     --accent-color: #00CC14;
     --gradient-color-line-1: #000;
