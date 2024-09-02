@@ -298,6 +298,7 @@
 }
 
 .dialog__text {
+  max-inline-size: 234px;
   font-family: var(--accent-font, "PressStart2P", fantasy);
   font-size: 14px;
 }
@@ -350,8 +351,8 @@
 }
 
 .dialog__icon {
-  inline-size: 40px;
-  block-size: 40px;
+  inline-size: 39px;
+  block-size: 39px;
   color: var(--accent-font);
 }
 
