@@ -6,14 +6,10 @@
     --font-bold-weight: 700;
     --background-color: #fff;
     --accent-color: #000;
-    --contur-color-like-icon: #000;
     --main-body-color-like-icon: #FF0000;
     --sparks-color-like-icon: #fff;
     --button-text-color: var(--background-color);
-    --diskette-color: var(--background-color);
-    --color-black: #000;
-    --color-white: #ffffff;
-    --color-green: #00cc14;
+    --like-color: #000;
     --gradient-color-line-1: #d3d3d3;
     --gradient-color-line-2: rgb(211 211 211 / 0%);
     --gradient-background-color-1: #e7e7e7;
